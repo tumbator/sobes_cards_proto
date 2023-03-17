@@ -1,0 +1,9 @@
+[flake8]
+count = True
+filename =
+    *.py,
+    modules/*.py,
+    tests/*.py
+extend-exclude =
+       venv/,
+       __pycache__
